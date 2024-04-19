@@ -1,0 +1,28 @@
+.books-section .search{
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.books-section .search input{
+    border-radius: 30px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.allBooks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px    ;
+}
+
+.wishlist{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    cursor: pointer;
+}

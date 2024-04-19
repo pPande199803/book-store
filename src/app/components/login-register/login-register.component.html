@@ -1,0 +1,99 @@
+<!-- login form  -->
+<div class="container-fluid login-register">
+    <div class="login" *ngIf="loginForm">
+        <div class="card">
+            <div class="card-body">
+                <h5>Login Form</h5>
+                <hr>
+
+                <form>
+                    <div class="form-feild mb-2 col-12">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email Here..">
+                    </div>
+                    <div class="form-feild mb-2 col-12">
+                        <label>Password</label>
+                        <input type="text" class="form-control" placeholder="Enter Password Here..">
+                    </div>
+                    <hr>
+                    <a class="forgetlink"  (click)="openForgetForm()">Forget Password..?</a>
+                    <div class="register-link mb-2">
+                        <a class="registerLink" (click)="openRegisterForm()">Create a new account..?</a>
+                    </div>
+                </form>
+            </div>
+            <div class="loginbtn d-grid col-6 mx-auto">
+                <button class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- register form  -->
+<div class="container-fluid login-register">
+    <div class="login" *ngIf="registerForm">
+        <div class="card">
+            <div class="card-body">
+                <h5>Register Form</h5>
+                <hr>
+                
+                <form>
+                    <div class="form-feild mb-2 col-12">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email Here..">
+                    </div>
+                    <div class="form-feild mb-2 col-12">
+                        <label>UserName</label>
+                        <input type="text" class="form-control" placeholder="Enter UserName Here..">
+                    </div>
+                    <div class="form-feild mb-2 col-12">
+                        <label>Password</label>
+                        <input type="text" class="form-control" placeholder="Enter Password Here..">
+                    </div>
+                    <hr>
+                    <div class="register-link mb-2">
+                        <a class="registerLink" (click)="onPageloadform()">Already have an account..?</a>
+                    </div>
+                </form>
+            </div>
+            <div class="loginbtn d-grid col-6 mx-auto">
+                <button class="btn btn-warning">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- forgetEmail Link sending form  -->
+
+<div class="container-fluid login-register">
+    <div class="login" *ngIf="forgetForm">
+        <div class="card">
+            <div class="card-body">
+                <h5>Forget Password Send Link Form</h5>
+                <hr>
+
+                <form>
+                    <div class="form-feild mb-2 col-12">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email Here..">
+                    </div>
+                    <span class="text-danger">Please Enter The Valid Email Address Only. To get forget password link.</span>
+                </form>
+            </div>
+            <div class="loginbtn d-grid col-6 mx-auto">
+                <button class="btn btn-primary">Send Forget Password Link</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer section  -->
+<div class="footer fixed-bottom">
+    <app-footer></app-footer>
+</div>

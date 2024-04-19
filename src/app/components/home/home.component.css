@@ -1,0 +1,100 @@
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/home-bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(8, 8, 8, 0.753);
+    width: 100%;
+    height: 100%;
+}
+.contain{
+    position: absolute;
+    top: 0;
+}
+.contain h2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 90px;
+    font-family:'Times New Roman', Times, serif;
+}
+.contain h2 p{
+    text-decoration: underline;
+    color: wheat
+    
+}
+.search-for-books{
+    display: flex;
+    width:48vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.search-for-books input{
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 21px;
+}
+.search-for-books button{
+    width: 190px;
+}
+
+.sologan{
+    color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* catagories  */
+
+.section h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cat-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 18rem;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 7px 20px;
+}
+.card:hover{
+    box-shadow: 0px 0px 1px 0px gray;
+}
+.card .card-body{
+    padding: 10px;
+}
+.card .card-body img{
+    background-color: rgb(85, 85, 85);
+    width: 240px;
+    height: 190px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 5px 1px lightgray;
+}
+.card .card-body .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}

@@ -1,0 +1,68 @@
+.login-register{
+    margin: auto;
+}
+.login-register .login{
+    margin-top: 4%;
+}
+    .card{
+    max-width:40%;
+    margin: auto;
+    padding: 10px   ;
+}
+.card .card-body{
+    padding: 10px;
+}
+.card .card-body h5{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-control{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.register-link{
+    float: right;
+}
+.registerLink{
+    color: blue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.registerLink:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+.forgetlink{
+    color: blue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.forgetlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkblue;
+
+}
+
+
+
+/* media query  */
+
+@media screen and (max-width:950px) {
+    
+.login-register .login{
+    margin-top: 10%;
+}
+    .login-register .login{
+        margin-top: 50px;
+    }
+    .card{
+        max-width:90%;
+    }
+}
